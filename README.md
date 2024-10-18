@@ -10,3 +10,16 @@ This project demonstrates an infrastructure setup using Python (Flask), Docker, 
 cd app/
 docker build -t your-dockerhub-username/sre-challenge-app .
 docker run -p 5000:5000 your-dockerhub-username/sre-challenge-app
+cd terraform/
+terraform init
+terraform apply
+
+kubectl apply -f kubernetes/
+
+
+---
+
+### **That's it!**  
+You have now set up your project directly in GitHub. You can continue adding commits and pushing updates from your local machine as needed.
+
+Let me know if you need any further guidance!
