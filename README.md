@@ -17,9 +17,3 @@ terraform apply
 kubectl apply -f kubernetes/
 
 
----
-
-### **That's it!**  
-You have now set up your project directly in GitHub. You can continue adding commits and pushing updates from your local machine as needed.
-
-Let me know if you need any further guidance!
